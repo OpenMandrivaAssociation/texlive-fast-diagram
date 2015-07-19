@@ -6,7 +6,7 @@
 # catalog-version 1.1
 Name:		texlive-fast-diagram
 Version:	1.1
-Release:	8
+Release:	9
 Summary:	Easy generation of FAST diagrams
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/fast-diagram
