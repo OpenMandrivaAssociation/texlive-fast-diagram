@@ -1,18 +1,12 @@
-# revision 29264
-# category Package
-# catalog-ctan /graphics/pgf/contrib/fast-diagram
-# catalog-date 2013-02-27 20:12:49 +0100
-# catalog-license lppl1.3
-# catalog-version 1.1
 Name:		texlive-fast-diagram
-Version:	1.1
-Release:	10
+Version:	29264
+Release:	1
 Summary:	Easy generation of FAST diagrams
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/fast-diagram
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fast-diagram.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fast-diagram.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fast-diagram.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fast-diagram.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -24,12 +18,12 @@ using TikZ/pgf tools. FAST diagrams are useful for functional
 analysis techniques in design methods.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -57,7 +51,7 @@ analysis techniques in design methods.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
