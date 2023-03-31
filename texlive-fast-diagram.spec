@@ -1,6 +1,6 @@
 Name:		texlive-fast-diagram
 Version:	29264
-Release:	1
+Release:	2
 Summary:	Easy generation of FAST diagrams
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/fast-diagram
