@@ -3,7 +3,7 @@ Version:	29264
 Release:	2
 Summary:	Easy generation of FAST diagrams
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/fast-diagram
+URL:		https://www.ctan.org/tex-archive/graphics/pgf/contrib/fast-diagram
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fast-diagram.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fast-diagram.doc.r%{version}.tar.xz
